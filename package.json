@@ -1,0 +1,26 @@
+{
+  "name": "badge-generator",
+  "version": "1.0.0",
+  "description": "generates a logo",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbichsel/badge-generator.git"
+  },
+  "author": "Zack Bichsel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zbichsel/badge-generator/issues"
+  },
+  "homepage": "https://github.com/zbichsel/badge-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.8",
+    "jest": "^29.6.2"
+  }
+}
