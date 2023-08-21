@@ -1,8 +1,8 @@
 // importing necessities 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Triangle, Square, Circle } = require('./lib/shapes');
-const SVG = require('./lib/svg');
+const { Triangle, Square, Circle, Rectangle } = require('./lib/shapes.js');
+const SVG = require('./lib/svg.js');
 
 //questions prompt
 function questions() {
@@ -22,7 +22,7 @@ function questions() {
                 type: 'list',
                 message: 'Which shape will you choose?',
                 name: 'shape',
-                choices: ['Triangle', 'Square', 'Circle'],
+                choices: ['Triangle', 'Square', 'Circle', 'Rectangle'],
             },
             {
                 type: 'input',
@@ -50,9 +50,11 @@ function generateSVG(response) {
     if (response.shape === 'Triangle') {
         shapeOption = new Triangle();
     } else if (response.shape === 'Square') {
-        shapeOption = new Square()
+        shapeOption = new Square();
     } else if (response.shape === 'Circle') {
-        shapeOption = new Circle()
+        shapeOption = new Circle();
+    } else if (response.shape === 'Rectangle') {
+        shapeOption = new Rectangle();
     }
     shapeOption.setColor(response.shapeColor);
 
@@ -65,4 +67,4 @@ function writeToFile(filename, data) {
     fs.writeFile(filename, data, (err) => err ? console.log(err) : console.log('Generated logo.svg!'));
 };
 
-questions()
+questions();
