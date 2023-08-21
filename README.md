@@ -5,7 +5,7 @@
 
   ## Description
 
-A tech blog serves as a digital haven where technology enthusiasts, professionals, and curious minds converge to explore, understand, and discuss the dynamic world of innovation. Its purpose is to dissect complex technological concepts, trends, and advancements, presenting them in accessible and engaging ways. This web application focuses on using various technologies to create a fully functional technology blog where the user can create an account, login, create a new blog, update an existing blog, and delete blogs. The user is also able to interact with other people who have created blogs and make comments on their blogs.
+I have created an innovative SVG command line generator. This tool empowers users to effortlessly generate Scalable Vector Graphics (SVG) images through a simple and intuitive command line interface. The generator allows individuals to customize various aspects of their SVG graphics, such as shapes, colors, and text, all by entering commands in the command line. This solution streamlines the process of creating vector images.
 
 
   ## Table of Contents
