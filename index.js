@@ -59,7 +59,8 @@ function generateSVG(response) {
     shapeOption.setColor(response.shapeColor);
 
     const svg = new SVG();
-    svg.setTextString(shapeOption)
+    svg.setTextString(response.text, response.textColor);
+    svg.setShapeOption(shapeOption);
     svgString = svg.render();
 }
 
