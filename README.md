@@ -8,6 +8,13 @@
 I have created an innovative SVG command line generator. This tool empowers users to effortlessly generate Scalable Vector Graphics (SVG) images through a simple and intuitive command line interface. The generator allows individuals to customize various aspects of their SVG graphics, such as shapes, colors, and text, all by entering commands in the command line. This solution streamlines the process of creating vector images.
 
 
+
+
+https://github.com/zbichsel/badge-generator/assets/136612956/2523f503-66fb-4436-894f-43ac62b3d34f
+
+
+
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
